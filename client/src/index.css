@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(60, 4.8%, 95.9%);
+  --accent-foreground: hsl(24, 9.8%, 10%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Custom GFG colors */
+  --ocean-green: hsl(158, 54%, 53%);
+  --gfg-green: hsl(158, 100%, 27%);
+  --light-mint: hsl(158, 67%, 90%);
+  --deep-green: hsl(158, 42%, 28%);
+  --near-black: hsl(158, 31%, 9%);
+  --glow-white: hsl(0, 0%, 100%);
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(207, 90%, 54%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(240, 3.7%, 15.9%);
+  --accent-foreground: hsl(0, 0%, 98%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.3);
+  }
+  
+  .text-glow-sm {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  
+  .border-glow {
+    border: 2px solid transparent;
+    background: linear-gradient(var(--near-black), var(--near-black)) padding-box, 
+               linear-gradient(45deg, var(--ocean-green), var(--gfg-green)) border-box;
+  }
+  
+  .hover-glow:hover {
+    box-shadow: 0 0 20px rgba(58, 178, 132, 0.6);
+    transform: scale(1.02);
+  }
+  
+  .shadow-glow {
+    box-shadow: 0 0 15px rgba(58, 178, 132, 0.5);
+  }
+  
+  .shadow-glow-green {
+    box-shadow: 0 0 15px rgba(0, 137, 94, 0.6);
+  }
+  
+  .bg-ocean-green {
+    background-color: var(--ocean-green);
+  }
+  
+  .bg-gfg-green {
+    background-color: var(--gfg-green);
+  }
+  
+  .bg-light-mint {
+    background-color: var(--light-mint);
+  }
+  
+  .bg-deep-green {
+    background-color: var(--deep-green);
+  }
+  
+  .bg-near-black {
+    background-color: var(--near-black);
+  }
+  
+  .text-ocean-green {
+    color: var(--ocean-green);
+  }
+  
+  .text-gfg-green {
+    color: var(--gfg-green);
+  }
+  
+  .text-glow-white {
+    color: var(--glow-white);
+  }
+  
+  .border-ocean-green {
+    border-color: var(--ocean-green);
+  }
+  
+  .border-gfg-green {
+    border-color: var(--gfg-green);
+  }
+}
