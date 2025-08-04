@@ -1,4 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
+import gfgLogo from "../assets/gfg-logo.svg";
+import smecLogo from "../assets/smec-logo.svg";
 
 export default function Header() {
   const location = useLocation();
@@ -11,27 +13,19 @@ export default function Header() {
       <div className="flex items-center justify-between px-6 py-4">
         {/* GFG Logo */}
         <div className="flex items-center space-x-3">
-          <div className="w-12 h-12 bg-gfg-green rounded-full flex items-center justify-center shadow-glow" data-testid="logo-gfg">
-            <svg className="w-6 h-6 text-glow-white" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2L2 7v10c0 5.55 3.84 9.739 9 11 5.16-1.261 9-5.45 9-11V7l-10-5z"/>
-            </svg>
-          </div>
+          <img src={gfgLogo} alt="GeeksforGeeks Logo" className="h-10 w-auto shadow-glow" data-testid="logo-gfg" />
           <span className="hidden md:block text-sm text-glow-sm">GeeksforGeeks</span>
         </div>
         
         {/* Center Title */}
         <h1 className="font-outfit font-bold text-xl md:text-2xl lg:text-3xl text-glow text-center" data-testid="header-title">
-          GeeksforGeeks Campus Body
+          St. Martin's GeeksforGeeks Campus Body
         </h1>
         
         {/* SMEC Logo */}
         <div className="flex items-center space-x-3">
           <span className="hidden md:block text-sm text-glow-sm">SMEC</span>
-          <div className="w-12 h-12 bg-ocean-green rounded-full flex items-center justify-center shadow-glow" data-testid="logo-smec">
-            <svg className="w-6 h-6 text-glow-white" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 3L1 9v6c0 5.55 3.84 9.739 9 11 5.16-1.261 9-5.45 9-11V9l-11-6z"/>
-            </svg>
-          </div>
+          <img src={smecLogo} alt="SMEC Logo" className="h-10 w-auto shadow-glow" data-testid="logo-smec" />
         </div>
       </div>
       
