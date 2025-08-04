@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
-import gfgLogo from "../assets/gfg-logo.svg";
-import smecLogo from "../assets/smec-logo.svg";
+import gfgLogo from "../assets/gfg-logo.png";
+import smecLogo from "../assets/smec-logo.png";
 
 export default function Header() {
   const location = useLocation();
