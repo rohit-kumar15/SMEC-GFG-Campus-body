@@ -1,6 +1,8 @@
+import { useState } from "react";
 import EventCard from "../components/EventCard";
 
 export default function Events() {
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const events = [
     {
       icon: (
@@ -125,7 +127,11 @@ export default function Events() {
             {teamHeads.map((head, index) => (
               <div 
                 key={index}
-                className={`bg-gradient-to-b from-deep-green to-near-black border ${head.borderColor} rounded-2xl p-6 text-center ${head.hoverEffect} hover:scale-105 transition-all duration-300`}
+                className={`bg-gradient-to-b from-deep-green to-near-black border ${head.borderColor} rounded-2xl p-6 text-center ${head.hoverEffect} hover:scale-105 transition-all duration-300 ${
+                  hoveredCard !== null && hoveredCard !== index ? 'blur-sm' : 'blur-none'
+                }`}
+                onMouseEnter={() => setHoveredCard(index)}
+                onMouseLeave={() => setHoveredCard(null)}
                 data-testid={`team-member-${index}`}
               >
                 <div className={`w-24 h-24 bg-gradient-to-br ${head.bgColor} rounded-full mx-auto mb-4 flex items-center justify-center shadow-glow`}>
