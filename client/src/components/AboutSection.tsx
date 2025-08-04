@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section className="bg-deep-green py-20 px-6">
+    <section className="bg-gradient-to-b from-deep-green to-near-black py-20 px-6">
       <div className="max-w-6xl mx-auto">
         <h2 className="font-outfit font-bold text-4xl md:text-5xl text-glow text-center mb-12" data-testid="about-title">
           About GeeksforGeeks

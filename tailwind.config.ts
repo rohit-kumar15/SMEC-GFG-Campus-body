@@ -80,8 +80,8 @@ export default {
         'glow-green': '0 0 15px rgba(0, 137, 94, 0.6)',
       },
       dropShadow: {
-        'glow': '0 0 10px rgba(255, 255, 255, 0.5)',
-        'glow-lg': '0 0 20px rgba(255, 255, 255, 0.7)',
+        'glow': '0 0 3px rgba(255, 255, 255, 0.3)',
+        'glow-lg': '0 0 5px rgba(255, 255, 255, 0.4)',
       },
       keyframes: {
         "accordion-down": {

@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <section className="min-h-screen bg-gradient-to-b from-ocean-green via-deep-green to-near-black relative overflow-hidden">
+    <section className="min-h-screen bg-gradient-to-b from-ocean-green to-deep-green relative overflow-hidden">
       {/* Background Pattern Overlay */}
       <div className="absolute inset-0 opacity-10">
         <div 
