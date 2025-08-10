@@ -7,11 +7,17 @@ export default function AboutSection() {
         </h2>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="font-poppins text-lg text-glow-sm leading-relaxed mb-6" data-testid="about-description-1">
-              GeeksforGeeks is a leading platform that provides computer science resources and coding challenges for programmers and technology enthusiasts, along with interview and exam preparations for upcoming aspirants.
+            <div className="mb-2">
+              <span className="font-outfit font-semibold text-xl text-ocean-green">About SMEC</span>
+            </div>
+            <p className="font-poppins text-base text-glow-sm leading-relaxed mb-6" data-testid="about-description-1">
+              St. Martin’s Engineering College (SMEC), situated in Dhulapally, Hyderabad, is an autonomous institution under JNTU Hyderabad that stands as a hub for innovation, excellence, and holistic development. With NAAC A+ and NBA accreditations, AICTE approval, and a lush 17-acre campus equipped with state-of-the-art labs, research facilities, and vibrant student spaces, SMEC fosters both academic and personal growth. The college is home to 100+ industry collaborations, an impressive record of research and patents, and a strong placement track with top recruiters like Microsoft, Amazon, and Accenture. More than just an engineering institution, SMEC is a thriving community where ideas turn into impact and students are shaped into future-ready professionals.
             </p>
-            <p className="font-poppins text-lg text-glow-sm leading-relaxed mb-6" data-testid="about-description-2">
-              Our campus body at St. Martin's Engineering College aims to bridge the gap between academic learning and industry requirements, fostering a community of passionate learners and problem solvers.
+            <div className="mb-2">
+              <span className="font-outfit font-semibold text-xl text-ocean-green">About GFG</span>
+            </div>
+            <p className="font-poppins text-base text-glow-sm leading-relaxed mb-6" data-testid="about-description-2">
+              GeeksforGeeks (GFG) is one of the largest and most trusted platforms for computer science and programming resources. Founded with the vision to make quality technical knowledge accessible to everyone, GFG offers a vast collection of tutorials, coding problems, interview preparation materials, and development resources for learners of all levels. From data structures and algorithms to web development, machine learning, and competitive programming, GeeksforGeeks provides in-depth explanations, examples, and practice problems to help learners build a strong foundation in computer science.
             </p>
             <div className="flex flex-wrap gap-4">
               <span className="bg-ocean-green/20 border border-ocean-green text-glow-white px-4 py-2 rounded-full text-sm" data-testid="tag-programming">

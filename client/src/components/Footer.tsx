@@ -9,28 +9,37 @@ export default function Footer() {
           <h3 className="font-outfit font-semibold text-2xl text-glow mb-4" data-testid="footer-title">Stay Connected</h3>
           <div className="flex justify-center space-x-8">
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/geeksforgeeks-smec-9a2987379?trk=contact-info"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#0077B5] text-3xl transition-all duration-300 hover:scale-110 hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.4)]"
               data-testid="social-linkedin"
             >
               <FaLinkedin />
             </a>
             <a 
-              href="https://instagram.com" 
+              href="https://www.instagram.com/geeksforgeeks_smec/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#E1306C] text-3xl transition-all duration-300 hover:scale-110 hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.4)]"
               data-testid="social-instagram"
             >
               <FaInstagram />
             </a>
+            <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=gfgsmec@gmail.com&su=Your%20Subject%20Here&body=Type%20your%20message%20here"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-[#D14836] text-3xl transition-all duration-300 hover:scale-110 hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.4)]"
+  data-testid="social-email"
+>
+  <MdEmail />
+</a>
+
             <a 
-              href="https://gmail.com" 
-              className="text-[#D14836] text-3xl transition-all duration-300 hover:scale-110 hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.4)]"
-              data-testid="social-email"
-            >
-              <MdEmail />
-            </a>
-            <a 
-              href="https://youtube.com" 
+              href="https://youtube.com/@gfgsmec?si=FwR3GtrR4ljrf9t-"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[#FF0000] text-3xl transition-all duration-300 hover:scale-110 hover:drop-shadow-[0_0_5px_rgba(255,255,255,0.4)]"
               data-testid="social-youtube"
             >

@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
-import gfgLogo from "../assets/gfg-logo.png";
-import smecLogo from "../assets/smec-logo.png";
+import gfgLogo from '../assets/gfg-logo.png'; // Update path and filename if needed
+import smecLogo from '../assets/smec-logo.png'; // Update path and filename if needed
 
 export default function Header() {
   const location = useLocation();
@@ -13,7 +13,7 @@ export default function Header() {
       <div className="flex items-center justify-between px-6 py-4">
         {/* GFG Logo */}
         <div className="flex items-center">
-          <img src={gfgLogo} alt="GeeksforGeeks Logo" className="h-10 w-auto shadow-glow" data-testid="logo-gfg" />
+          <img src={gfgLogo} alt="GFG Logo" className="h-10 w-auto" />
         </div>
         
         {/* Center Title */}
@@ -23,7 +23,7 @@ export default function Header() {
         
         {/* SMEC Logo */}
         <div className="flex items-center">
-          <img src={smecLogo} alt="SMEC Logo" className="h-10 w-auto shadow-glow" data-testid="logo-smec" />
+          <img src={smecLogo} alt="SMEC Logo" className="h-10 w-auto" />
         </div>
       </div>
       

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orange arrow pointing up -->
+  <path d="M85 25 L105 5 L125 25 L115 25 L115 55 L95 55 L95 25 Z" fill="#FF8C00"/>
+  
+  <!-- Orange mountain/triangle shapes -->
+  <path d="M20 80 L45 40 L55 55 L70 40 L95 80 Z" fill="#FF8C00"/>
+  
+  <!-- Green text "SKILLUP" -->
+  <text x="40" y="95" font-family="Arial Black, sans-serif" font-size="22" font-weight="900" fill="#228B22">SKILLUP</text>
+  
+  <!-- Orange text "NATION" -->
+  <text x="90" y="35" font-family="Arial Black, sans-serif" font-size="16" font-weight="900" fill="#FF8C00" transform="rotate(-15 90 35)">NATION</text>
+</svg>

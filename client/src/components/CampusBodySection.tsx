@@ -45,7 +45,7 @@ export default function CampusBodySection() {
           Campus Body Structure
         </h2>
         <p className="font-poppins text-xl text-glow-sm text-center max-w-3xl mx-auto mb-16" data-testid="campus-body-description">
-          Our campus body is organized to maximize learning opportunities and foster collaboration among students passionate about technology and programming.
+          The Campus Body of GeeksforGeeks Student Chapter is designed to ensure smooth functioning, effective collaboration, and maximum impact on the student community. Each role is structured to encourage leadership, creativity, and technical excellence.
         </p>
         
         <div className="grid md:grid-cols-3 gap-8">

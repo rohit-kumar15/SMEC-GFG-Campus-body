@@ -81,7 +81,9 @@ export default function Resources() {
           <p className="font-poppins text-xl text-glow-sm text-center max-w-3xl mx-auto mb-16" data-testid="resources-description">
             Access curated learning materials, roadmaps, and guides to accelerate your programming journey and career preparation.
           </p>
+          <p className="font-bold text-center text-white text-4xl mb-16 ">Adding Soon!</p>
           
+          {/* 
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
             {resources.map((resource, index) => (
               <ResourceCard
@@ -98,8 +100,10 @@ export default function Resources() {
               />
             ))}
           </div>
-          
-          {/* Additional Resources Section */}
+          */}
+
+
+          {/* 
           <div className="mt-16 text-center">
             <h3 className="font-outfit font-semibold text-2xl text-glow mb-8" data-testid="additional-resources-title">
               More Learning Resources
@@ -119,6 +123,7 @@ export default function Resources() {
               ))}
             </div>
           </div>
+          */}
         </div>
       </section>
     </div>
