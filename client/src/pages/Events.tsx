@@ -164,10 +164,10 @@ export default function Events() {
                     
                     {/* Content container with relative positioning */}
                     <div className="relative z-10">
-                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-2 mt-32" data-testid={`member-name-${index}`}>
+                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-0.5 mt-40" data-testid={`member-name-${index}`}>
                         {head.name}
                       </h3>
-                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-4" data-testid={`member-role-${index}`}>
+                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-2" data-testid={`member-role-${index}`}>
                         {head.role}
                       </p>
                       <div className="flex justify-center space-x-4">
@@ -233,10 +233,10 @@ export default function Events() {
                     
                     {/* Content container with relative positioning */}
                     <div className="relative z-10">
-                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-2 mt-32" data-testid={`member-name-${index}`}>
+                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-0.5 mt-40" data-testid={`member-name-${index}`}>
                         {head.name}
                       </h3>
-                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-4" data-testid={`member-role-${index}`}>
+                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-2" data-testid={`member-role-${index}`}>
                         {head.role}
                       </p>
                       <div className="flex justify-center space-x-4">
@@ -301,10 +301,10 @@ export default function Events() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 rounded-2xl"></div>
                     {/* Content container with relative positioning */}
                     <div className="relative z-10">
-                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-2 mt-32" data-testid={`member-name-${index}`}>
+                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-0.5 mt-40" data-testid={`member-name-${index}`}>
                         {head.name}
                       </h3>
-                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-4" data-testid={`member-role-${index}`}>
+                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-2" data-testid={`member-role-${index}`}>
                         {head.role}
                       </p>
                       <div className="flex justify-center space-x-4">
@@ -361,10 +361,10 @@ export default function Events() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 rounded-2xl"></div>
                     {/* Content container with relative positioning */}
                     <div className="relative z-10">
-                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-2 mt-32" data-testid={`member-name-${index}`}>
+                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-0.5 mt-40" data-testid={`member-name-${index}`}>
                         {head.name}
                       </h3>
-                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-4" data-testid={`member-role-${index}`}>
+                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-2" data-testid={`member-role-${index}`}>
                         {head.role}
                       </p>
                       <div className="flex justify-center space-x-4">
@@ -429,10 +429,10 @@ export default function Events() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 rounded-2xl"></div>
                     {/* Content container with relative positioning */}
                     <div className="relative z-10">
-                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-2 mt-32" data-testid={`member-name-${index}`}>
+                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-0.5 mt-40" data-testid={`member-name-${index}`}>
                         {head.name}
                       </h3>
-                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-4" data-testid={`member-role-${index}`}>
+                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-2" data-testid={`member-role-${index}`}>
                         {head.role}
                       </p>
                       <div className="flex justify-center space-x-4">
@@ -497,10 +497,10 @@ export default function Events() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/20 rounded-2xl"></div>
                     {/* Content container with relative positioning */}
                     <div className="relative z-10">
-                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-2 mt-32" data-testid={`member-name-${index}`}>
+                      <h3 className="font-outfit font-semibold text-xl text-white drop-shadow-lg mb-0.5 mt-40" data-testid={`member-name-${index}`}>
                         {head.name}
                       </h3>
-                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-4" data-testid={`member-role-${index}`}>
+                      <p className="font-poppins text-white drop-shadow-lg text-sm font-medium mb-2" data-testid={`member-role-${index}`}>
                         {head.role}
                       </p>
                       <div className="flex justify-center space-x-4">
