@@ -27,12 +27,7 @@ export default function ResourceCard({
 }: ResourceCardProps) {
   // If image prop is provided, use it for the card image
   if (image) {
-    // Fix for case-sensitive file systems and typo issues
-    let imageFile = image;
-    if (title === "Aptitude & Reasoning") {
-      imageFile = "Aptitude.svg";
-    }
-    const imageSrc = new URL(`../assets/${imageFile}`, import.meta.url).href;
+    const imageSrc = new URL(`../assets/${image}`, import.meta.url).href;
     return (
       <div
         className="bg-gradient-to-b from-gfg-green/10 to-deep-green border border-gfg-green/30 rounded-2xl shadow-lg hover:scale-105 hover:shadow-glow-green transition-all duration-300 cursor-pointer flex flex-col items-center justify-between relative overflow-hidden"
