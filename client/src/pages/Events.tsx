@@ -32,14 +32,14 @@ export default function Events() {
       icon: (
         <img src={nationSkillUpLogo} alt="Nation SkillUp" className="w-16 h-8 object-contain" />
       ),
-      title: "National SkillUp",
+      title: "Nation SkillUp",
       date: "Ongoing Program",
       description: "A comprehensive skill development initiative by GeeksforGeeks designed to enhance technical competencies and career readiness for students and professionals.",
       borderColor: "border-gfg-green/30",
       buttonColor: "bg-gfg-green",
       hoverEffect: "hover:shadow-glow-green",
       showButton: true,
-      buttonLink: "https://www.geeksforgeeks.org/nation-skill-up/?utm_campaign=nation_skillup_CM&utm_medium=community+team&utm_source=harsh1111"
+      buttonLink: "https://gfgcdn.com/tu/Vd9/"
     }
   ];
 
